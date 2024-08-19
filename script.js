@@ -26,7 +26,7 @@ fetch('portfolio.json').then(function (res) {
         console.log(project)
         const projectType = document.querySelector('.project')
         projectType.innerHTML += `
-    <div class="specificProject sm:basis-2/5 bg-[#90AEAD] max-w-2xl border solid border white rounded-lg p-1.5">
+    <div class="specificProject sm:basis-2/5 bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
             <h2 class="py-1.5 font-bold text-cyan-900 sm:text-3xl">${project.name}</h2>
         <div>
             <a href="${project.live}" title="See it live">
