@@ -1,0 +1,25 @@
+{
+    "project": [
+      {
+        "name": "Using React",
+        "img": "images/React.png",
+        "desc": "Using react with a provided API, we developed an invoicing system to match a required spec and design. I pair programmed the homepage showing all invoices and their status along with the number unpaid and the individual invoice page showing the full details of an invoice, using Tailwind for the styling.",
+        "url": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
+        "live": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
+      },
+      {
+        "name": "Using PHP, MySQL, Object-Oriented Programming",
+        "img": "images/OOP.png",
+        "desc": "Using PHP and a supplied SQL database to develop a music app matching required spec and design. I pair programmed the homepage showing three random artists and their albums, a page displaying all artists, their albums and song counts on each album and also a favourites element on the homepage displaying the five most played artists.  All of the above involved developing database queries and fetches along with coding the classes, entities and services required to display the elements properly.",
+        "url": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
+        "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
+      },
+      {
+        "name": "Portfolio page design exercise",
+        "img": "Portfolio_page.png",
+        "desc": "An exercise to create a project portfolio page to show examples of projects I have completed",
+        "url": "https://github.com/AndyB0o1/portfolio-exercise",
+        "live": "#"
+      }
+    ]
+  }

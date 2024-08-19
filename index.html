@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+
+
+    <title>Andy Bool Portfolio</title>
+
+</head>
+
+<body style="background-image: url(images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg)" class="p-1.5">
+
+    <header class="w-full flex justify-between py-1.5 text-orange-100 rounded sm:text-2xl">
+        <div class="relative">
+            <div>
+                <button class="menu p-1.5 bg-cyan-900 text-sm rounded sm:hidden">Menu &#x25BC;</button>
+            </div>
+            <div
+                class="dropdown hidden absolute flex flex-col flex-wrap bg-cyan-900 text-orange-100 gap-3 p-1.5 rounded">
+                <a href=" #about" class="p-0.5 hover:bg-lime-300 hover:text-cyan-900 hover:rounded">About</a>
+                <a href="#portfolio" class="p-0.5 hover:bg-lime-300 hover:text-cyan-900 hover:rounded">Projects</a>
+                <a href="#contact" class="p-0.5 hover:bg-lime-300 hover:text-cyan-900 hover:rounded">Contact</a>
+            </div>
+            <div class="hidden gap-4 sm:flex sm:flex-row">
+                <button class="p-1.5 bg-cyan-900 text-sm rounded sm:text-2xl"><a href="#about">About me</a></button>
+                <button class="p-1.5 bg-cyan-900 text-sm rounded sm:text-2xl"><a href="#portfolio">My
+                        projects</a></button>
+                <button class="p-1.5 bg-cyan-900 text-sm rounded sm:text-2xl"><a href="#contact">Contact me</a></button>
+            </div>
+        </div>
+        <button class="p-1.5 bg-cyan-900 text-sm rounded sm:text-2xl">Download my CV</button>
+    </header>
+    </header>
+    <div class="p-1.5 mb-2 bg-cyan-900 text-orange-100 sm:text-2xl rounded">
+        <h2 class="font-bold">Welcome to my site!</h2>
+        <p class="p-0.5 text-sm sm:text-2xl">Hi, I'm Andy, a Fullstack developer with an interest in both front and
+            back-end development
+            and experience of working in HTML, CSS, JS, React, PHP and Laravel</p>
+        <button class="about p-0.5 mb-1.5 bg-orange-100 text-cyan-900 text-sm rounded sm:hidden">More...</button>
+        <div class="aboutMe hidden p-1.5 bg-orange-100 text-cyan-900 text-sm rounded sm:block sm:text-xl">
+            <p>I'm a fullstack developer with an interest in both front and back-end development. Having recently
+                graduated from the iO Academy Software Development Bootcamp I'm looking for a dev role that will allow
+                me to build a career in software development.
+            </p>
+            <br>
+            <p>I've worked on my own, pair-programmed and as a member of a Scrum team to complete projects. I have
+                experience of coding in HTML, CSS, JS, React, PHP, mySQL and Laravel and examples of my coding and the
+                projects I've worked on so far can be seen in my portfolio below.
+            </p>
+            <button class="less p-0.5 mb-1.5 bg-cyan-900 text-orange-100 text-sm rounded sm:hidden">Less</button>
+        </div>
+    </div>
+
+    <div class="portfolio px-1.5 bg-orange-600 rounded">
+        <h3 class="p-1.5 font-bold text-orange-100 sm:text-3xl">My project portfolio</h3>
+        <p class="px-1.5 mb-1.5 font-bold text-orange-100 sm:text-3xl sm:hidden">Scroll to see examples of
+            my coding so far</p>
+    </div>
+
+    <section class="p-1.5 max-h-96 overflow-auto sm:max-h-none" id="portfolio">
+        <div
+            class="project flex flex-column flex-wrap justify-around justify-items-center align-items-center gap-2 p-2 sm:flex-row">
+        </div>
+    </section>
+
+    <section class="bg-orange-600 p-1.5 text-orange-100" id="contact">
+        <h3 class="p-1.5 font-bold sm:text-3xl">Contact me</h3>
+        <div class="flex flex-row gap-7 p-1.5 sm:text-2xl">
+            <a class="p-1.5 sm:text-4xl hover:bg-lime-300 rounded-full" id="icon" href="mailto:andybooldev@gmail.com"><i
+                    class="fa-regular fa-envelope"></i></a>
+            <a class="sm:text-4xl p-1.5 hover:bg-lime-300 rounded-full" id="icon"
+                href="https://www.linkedin.com/in/andy-bool-568a2622/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a class="sm:text-4xl p-1.5 hover:bg-lime-300 rounded-full" id="icon" href="https://github.com/AndyB0o1"
+                target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+    <footer class="p-1.5 bg-cyan-900 text-orange-100 sm:text-xl">
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+
+</html>
