@@ -15,11 +15,7 @@ less.addEventListener('click', function () {
 const menu = document.querySelector('.menu')
 const dropdown = document.querySelector('.dropdown')
 
-menu.addEventListener('mouseover', function () {
-    dropdown.classList.toggle('hidden')
-})
-
-dropdown.addEventListener('mouseleave', function () {
+menu.addEventListener('click', function () {
     dropdown.classList.toggle('hidden')
 })
 

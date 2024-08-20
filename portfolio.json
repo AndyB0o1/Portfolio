@@ -22,6 +22,20 @@
       "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
     },
     {
+      "name": "React Exercises",
+      "img": "Reactexercises.png",
+      "desc": "React exercises - a mega counter, an opinion tracker and a Bitcoin to Freddo bars currency converter that pulls data from an api every 30 seconds",
+      "url": "https://github.com/AndyB0o1/ReactExercises",
+      "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
+    },
+    {
+      "name": "PHP: simple Blackjack simulator",
+      "img": "Blackjack.png",
+      "desc": "A simple Blackjack simulator in PHP",
+      "url": "https://github.com/AndyB0o1/php-simple-blackjack-simulator",
+      "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
+    },
+    {
       "name": "Portfolio page design exercise",
       "img": "portfolio.png",
       "desc": "An exercise to create a project portfolio page to show examples of projects I have completed",
