@@ -34,13 +34,6 @@
       "desc": "A simple Blackjack simulator in PHP",
       "url": "https://github.com/AndyB0o1/php-simple-blackjack-simulator",
       "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
-    },
-    {
-      "name": "Portfolio page design exercise",
-      "img": "portfolio.png",
-      "desc": "An exercise to create a project portfolio page to show examples of projects I have completed",
-      "url": "https://github.com/AndyB0o1/Portfolio",
-      "live": "#"
     }
   ]
 }
