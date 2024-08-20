@@ -31,7 +31,7 @@ fetch('portfolio.json').then(function (res) {
         const projectType = document.querySelector('.project')
         projectType.innerHTML += `
     <div class="specificProject sm:basis-2/5 bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
-            <h2 class="py-1.5 font-bold text-cyan-900 sm:text-3xl">${project.name}</h2>
+            <h2 class="p-2 font-bold bg-orange-600 text-orange-100 sm:text-3xl">${project.name}</h2>
         <div>
             <a href="${project.live}" title="See it live">
             <img src="${project.img}" alt="A ${project.name}" class="projectImage rounded"/>

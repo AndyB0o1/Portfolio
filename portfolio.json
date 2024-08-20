@@ -8,7 +8,7 @@
       "live": "#"
     },
     {
-      "name": "Using React",
+      "name": "Using React to build an invoicing app",
       "img": "React.png",
       "desc": "Using react with a provided API, we developed an invoicing system to match a required spec and design. I pair programmed the homepage showing all invoices and their status along with the number unpaid and the individual invoice page showing the full details of an invoice, using Tailwind for the styling.",
       "url": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
