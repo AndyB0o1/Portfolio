@@ -5,13 +5,6 @@
       "img": "laravel-book-swap.png",
       "desc": "Using Laravel and a supplied React front-end to develop the back end API of a book swap site. I pair programmed a number of elements including appropriate unit tests, methods to get, claim and review books along with mob programming an admin level dashboard with associated log in function to view popular books and genres. ",
       "url": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",
-      "live": "https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/"
-    },
-    {
-      "name": "Front end of Laravel book swap site",
-      "img": "laravel-book-swap.png",
-      "desc": "React front-end for the Laravel API book swap site.",
-      "url": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",
       "live": "https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk/"
     },
     {
