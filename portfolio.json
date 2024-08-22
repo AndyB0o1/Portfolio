@@ -3,9 +3,9 @@
     {
       "name": "Using Laravel to build the back end of a book swap site",
       "img": "laravel-book-swap.png",
-      "desc": "Using Laravel and a supplied React front-end to develop the back end API of a book swap site. I pair programmed a number of elements including appropriate unit tests, methods to get, claim and review books along with mob programming an admin level dashboard with associated log in function to view popular books and genres. ",
+      "desc": "Using Laravel and a supplied React front-end to develop the back end API of a book swap site. I pair programmed a number of elements including appropriate unit tests, methods to get, claim and review books along with mob programming an admin level dashboard with associated log in function to view popular books and genres. The backend url can be viewed via the live link below, the front end url is https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk",
       "url": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",
-      "live": "https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk"
+      "live": "https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/api/books"
     },
     {
       "name": "Using React to build an invoicing app",
