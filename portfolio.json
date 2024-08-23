@@ -3,9 +3,9 @@
     {
       "name": "Using Laravel to build the back end of a book swap site",
       "img": "laravel-book-swap.png",
-      "desc": "Using Laravel and a supplied React front-end to develop the back end API of a book swap site. I pair programmed a number of elements including appropriate unit tests, methods to get, claim and review books along with mob programming an admin level dashboard with associated log in function to view popular books and genres. The backend url can be viewed via the live link below, the front end url is https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk",
+      "desc": "Using Laravel and a supplied React front-end to develop a RESTful API for the back end of a book swap site. I pair programmed a number of elements including appropriate unit tests, methods to get, claim and review books along with mob programming an admin level dashboard with associated log in function to view popular books and genres. The backend url can be viewed via the live link below, the front end url is https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk",
       "url": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",
-      "live": "https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/api/books"
+      "live": "https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/"
     },
     {
       "name": "Using React to build an invoicing app",
@@ -22,6 +22,12 @@
       "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
     },
     {
+      "name": "A simple weather app in React",
+      "img": "weather.png",
+      "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather",
+      "url": "https://github.com/AndyB0o1/react-weather-app",
+      "live": "https://weather.2024-andyb.dev.io-academy.uk/"
+    },{
       "name": "React Exercises",
       "img": "Reactexercises.png",
       "desc": "React exercises - a mega counter, an opinion tracker and a Bitcoin to Freddo bars currency converter that pulls data from an api every 30 seconds",
