@@ -35,7 +35,7 @@ fetch('portfolio.json').then(function (res) {
         </div>
         <div class="projectText">
             <p class="pt-1.5 pb-3 text-cyan-900 font-semibold sm:text-3xl">${project.desc}</p>
-            <p class="py-2"><a class="bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3" href="${project.url}" target="_blank">See it on github</a> | <a href="${project.live}"
+            <p class="py-2"><a class="bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3" href="${project.url}" target="_blank">See it on github</a> | <a href="${project.live} "
                     class="bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3" >Live</a></p>
         </div>
     </div>`
