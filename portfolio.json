@@ -24,17 +24,10 @@
     },
     {
       "name": "A simple weather app in React",
-      "img": "weather.png",
-      "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather",
-      "url": "https://github.com/AndyB0o1/react-weather-app",
-      "live": "https://weather.2024-andyb.dev.io-academy.uk/"
-    },
-    {
-      "name": "React Exercises",
-      "img": "Reactexercises.png",
-      "desc": "React exercises - a mega counter, an opinion tracker and a Bitcoin to Freddo bars currency converter that pulls data from an api every 30 seconds",
-      "url": "https://github.com/AndyB0o1/ReactExercises",
-      "live": "https://react.2024-andyb.dev.io-academy.uk/"
+      "img": "weather-forecast.png",
+      "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather and a basic 5 day forecast",
+      "url": "https://github.com/AndyB0o1/weather-forecast",
+      "live": "https://forecast.2024-andyb.dev.io-academy.uk/"
     },
     {
       "name": "PHP: simple Blackjack simulator",
