@@ -28,13 +28,6 @@
       "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather and a basic 5 day forecast",
       "url": "https://github.com/AndyB0o1/weather-forecast",
       "live": "https://forecast.2024-andyb.dev.io-academy.uk/"
-    },
-    {
-      "name": "PHP: simple Blackjack simulator",
-      "img": "Blackjack.png",
-      "desc": "A simple Blackjack simulator in PHP",
-      "url": "https://github.com/AndyB0o1/php-simple-blackjack-simulator",
-      "live": "https://2024-andyb.dev.io-academy.uk/php-simple-blackjack-simulator/"
     }
   ]
 }
