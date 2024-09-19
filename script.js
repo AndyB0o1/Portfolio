@@ -3,8 +3,8 @@ const aboutMe = document.querySelector('.aboutMe')
 const less = document.querySelector('.less')
 
 about.addEventListener('click', function () {
-aboutMe.classList.toggle('hidden')
-about.classList.add('hidden')
+    aboutMe.classList.toggle('hidden')
+    about.classList.add('hidden')
 })
 
 less.addEventListener('click', function () {
@@ -23,7 +23,6 @@ fetch('portfolio.json').then(function (res) {
     return res.json()
 }).then(function (data) {
     data.project.forEach(function (project) {
-        console.log(project)
         const projectType = document.querySelector('.project')
         projectType.innerHTML += `
     <div class="specificProject sm:basis-2/5 bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
