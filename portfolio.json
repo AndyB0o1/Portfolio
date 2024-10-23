@@ -15,6 +15,13 @@
       "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
     },
     {
+      "name": "Javascript Blackjack game",
+      "img": "blackjack.png",
+      "desc": "A project I started after my course - a simple Blackjack game written using html and JavaScript with Tailwind for styling. I used deckofcardsapi.com for the card deck and Aces can count as either high or low depending upon the current score. Currently only styled for desktop, I plan to add responsive design for smaller screens soon.",
+      "url": "https://github.com/AndyB0o1/blackjack",
+      "live": "https://2024-andyb.dev.io-academy.uk/blackjack/"
+    },
+    {
       "name": "A simple weather app in React",
       "img": "weather-forecast.png",
       "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather and a basic 5 day forecast",
