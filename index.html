@@ -34,21 +34,27 @@
     </header>
     <div class="p-1.5 mb-2 bg-cyan-900 text-orange-100 sm:text-3xl rounded">
         <h2 class="font-bold sm:text-3xl">Welcome to my site!</h2>
-        <p class="p-0.5 mb-2 sm:text-3xl">Hi, I'm Andy, a Fullstack developer with an interest in both front and
-            back-end development
-            and experience of working in HTML, CSS, JS, React, PHP and Laravel</p>
+        <p class="p-0.5 mb-2 sm:text-3xl">Hi, I'm Andy, I’ve recently retrained as a Full Stack Developer with an
+            interest
+            in both front and back-end development and have experience of working with HTML, CSS, JavaScript, React,
+            PHP, Laravel and RESTful APIs</p>
         <button class="about p-0.5 mb-1.5 bg-orange-100 text-cyan-900 text-sm rounded sm:hidden">More...</button>
         <div class="aboutMe hidden p-1.5 bg-orange-100 text-cyan-900 text-sm rounded sm:block sm:text-3xl">
-            <p>I'm a fullstack developer with an interest in both front and back-end development. Having recently
-                graduated from the iO Academy Software Development Bootcamp I'm looking for a dev role that will allow
-                me to build a career in software development.
+            <p>Following a successful career at a senior level in the charity sector, I made the decision last year to
+                seek a new challenge and to develop
+                a new career. Having worked with software and web developers as a 'customer' in a number of my previous
+                roles, I hold a real interest in programming
+                and a desire to build a career in software development. Research and conversations with contacts led me
+                to a Software Development Bootcamp run by iO
+                Academy in Bath. Having recently graduated from that course, I am now looking to develop my career as
+                a software developer, and to secure a dev role to help me build on the skills and experience I have
+                gained over the last few months.
             </p>
             <br>
             <p>I've worked on my own, pair-programmed and as a member of a Scrum team to complete projects using GitHub
                 to collaborate. I have
-                experience of coding in HTML, CSS, Tailwind, JS, React, PHP, mySQL and Laravel and examples of my coding
-                and the
-                projects I've worked on so far can be seen in my portfolio below.
+                experience of working with HTML, CSS, Tailwind, JS, React, PHP, mySQL and Laravel and examples of my
+                coding and the projects I've worked on so far can be seen in my portfolio below.
             </p>
             <br>
             <p>My previous career experience means I bring additional skills to roles such as problem solving,
@@ -70,7 +76,65 @@
 
     <section class="p-1.5 max-h-96 overflow-auto sm:max-h-none" id="portfolio">
         <div
-            class="project flex flex-column flex-wrap justify-around justify-items-center align-items-center gap-2 p-2 sm:flex-row">
+            class="project flex flex-col flex-wrap justify-around justify-items-center align-items-center gap-2 p-2 lg:flex-row">
+            <div class="specificProject mx-auto md:basis-2/5 bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
+                <h2 class="p-2 font-bold bg-orange-600 text-orange-100 sm:text-3xl">My Bird List app</h2>
+                <div>
+                    <a href="#">
+                        <img src="BirdApp.png" alt="Bird App Homepage" class="projectImage rounded" />
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="pt-1.5 pb-3 text-cyan-900 font-semibold sm:text-3xl">A work in progress... Since a very
+                        young age, I have been an avid birdwatcher and I have kept track of the separate species I've
+                        seen in the back of a
+                        birdwatching guide I had. My sister 'borrowed' that a while ago so it's anyone's guess as to
+                        where it is now.... I therefore decided to use my nascent coding skills to write an app to keep
+                        track of my list.
+                        My Bird List is an app that allows birdwatchers to store a list of the birds they've seen along
+                        with an image and location of the sighting. Built with a Laravel RESTful API back-end and React
+                        front-end, functionality so
+                        far includes registering as a user, adding a bird sighting, accessing your list and seeing the
+                        sightings on a React Leaflet map. It's not yet deployed live - my next steps are to add user
+                        authentication and
+                        log in, edit your list and individual sightings and complete unit tests for the back-end. You
+                        can see the latest code on GitHub via the links below.</p>
+                    <p class="py-2"><a
+                            class="p-3 bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg"
+                            href="https://github.com/AndyB0o1/bird-list-app-fe" target="_blank"><i
+                                class="fa-brands fa-github"></i> Front-end</a> | <a
+                            href="https://github.com/AndyB0o1/bird-list-app-api"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3"><i
+                                class="fa-brands fa-github"></i> Back-end</a></p>
+                </div>
+            </div>
+            <div class="specificProject mx-auto md:basis-2/5 bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
+                <h2 class="p-2 font-bold bg-orange-600 text-orange-100 sm:text-3xl">Laravel RESTful API</h2>
+                <div>
+                    <a href="#">
+                        <img src="laravel-book-swap.png" alt="Laravel project code" class="projectImage rounded" />
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="pt-1.5 pb-3 text-cyan-900 font-semibold sm:text-3xl">Using the Laravel framework, PHP and
+                        a supplied React front-end to develop
+                        a RESTful API for the back end of a book swap site. I pair programmed a number of elements
+                        including appropriate unit tests, methods
+                        to view details of multiple or single books, filters to select books by different criteria (eg
+                        genre) and the ability to add a review
+                        for a book. We also mob programmed an admin level log-in and dashboard view using Laravel
+                        Breeze.</p>
+                    <p class="py-2"><a
+                            class="p-3 bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg"
+                            href="https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api"
+                            target="_blank">See it on <i class="fa-brands fa-github"></i></a> | <a
+                            href="https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/api/books"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3">API</a>
+                        | <a href="https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk/"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3">Live</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
