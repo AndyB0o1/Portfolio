@@ -17,7 +17,7 @@
     {
       "name": "Javascript Blackjack game",
       "img": "blackjack.png",
-      "desc": "A project I started after my course - a simple Blackjack game written using html and JavaScript with Tailwind for styling. I used deckofcardsapi.com for the card deck and Aces can count as either high or low depending upon the current score. Currently only styled for desktop, I plan to add responsive design for smaller screens soon.",
+      "desc": "A project I started after my course - a simple Blackjack game written using html and JavaScript with Tailwind for styling. I used deckofcardsapi.com for the card deck. The game logic allows Aces to be either high or low depending upon the current score, and the dealer takes action on their cards based on the score. Responsive design allows it to work on both mobile and desktop.",
       "url": "https://github.com/AndyB0o1/blackjack",
       "live": "https://2024-andyb.dev.io-academy.uk/blackjack/"
     },
